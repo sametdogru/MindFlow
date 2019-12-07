@@ -143,7 +143,7 @@
 		365C17B62386FFF0002C99D0 = {
 			isa = PBXGroup;
 			children = (
-				365C17C12386FFF0002C99D0 /* BisuTestApp */,
+				365C17C12386FFF0002C99D0 /* MindFlow */,
 				365C17C02386FFF0002C99D0 /* Products */,
 				EFF946DF21F42E4DC9B49C95 /* Pods */,
 				25E5FAE648946F17949A58BA /* Frameworks */,
@@ -158,7 +158,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		365C17C12386FFF0002C99D0 /* BisuTestApp */ = {
+		365C17C12386FFF0002C99D0 /* MindFlow */ = {
 			isa = PBXGroup;
 			children = (
 				365C17C22386FFF0002C99D0 /* AppDelegate.swift */,
@@ -177,7 +177,6 @@
 				360A805C238713AC00D44200 /* GoogleService-Info.plist */,
 				365C17D02386FFF0002C99D0 /* Info.plist */,
 			);
-			name = BisuTestApp;
 			path = MindFlow;
 			sourceTree = "<group>";
 		};
