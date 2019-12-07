@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  BisuTestApp
 //
-//  Created by Aykut Doğru on 21.11.2019.
-//  Copyright © 2019 Aykut Doğru. All rights reserved.
+//  Created by Samet Doğru on 21.11.2019.
+//  Copyright © 2019 Samet Doğru. All rights reserved.
 //
 
 import UIKit

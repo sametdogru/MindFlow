@@ -181,6 +181,7 @@ class GameViewController: UIViewController, UICollectionViewDelegate, UICollecti
 		
 		fireStore.collection("UserInfo").whereField("email", isEqualTo: Auth.auth().currentUser!.email!).getDocuments { (snapshot, error) in
 			if error != nil {
+				self.makeAlert(title: "Error", message: error!.localizedDescription)
 			} else {
 				if snapshot?.isEmpty != true && snapshot != nil {
 					for document in snapshot!.documents {

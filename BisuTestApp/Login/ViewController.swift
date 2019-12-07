@@ -1,15 +1,16 @@
-
 import UIKit
 
 class ViewController: UIViewController {
 
 	@IBOutlet weak var signUpButton: UIButton!
+	@IBOutlet weak var signInButton: UIButton!
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
 		
-		signUpButton.layer.borderWidth = 1
-		signUpButton.layer.borderColor = UIColor.white.cgColor
+		signUpButton.layer.cornerRadius = 25
+		signUpButton.clipsToBounds = true
+		signInButton.layer.cornerRadius = 25
+		signInButton.clipsToBounds = true
 	}
 
 

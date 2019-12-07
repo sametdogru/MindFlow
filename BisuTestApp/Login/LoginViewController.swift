@@ -6,12 +6,14 @@ class LoginViewController: UIViewController {
 
 	@IBOutlet weak var emailText: UITextField!
 	@IBOutlet weak var passwordText: UITextField!
+	@IBOutlet weak var signInButton: UIButton!
+	
 	override func viewDidLoad() {
         super.viewDidLoad()
-
-		emailText.text = "sametdogru@gmail.com"
-		passwordText.text = "123456"
+		signInButton.layer.cornerRadius = 25
+		signInButton.clipsToBounds = true
     }
+	
 	@IBAction func signInButton(_ sender: Any) {
 		
 		if emailText.text != "" && passwordText.text != "" {
@@ -27,11 +29,15 @@ class LoginViewController: UIViewController {
 			makeAlert(title: "Error", message: "Username/Password??")
 		}
 	}
-	
+
 	func makeAlert(title: String, message: String) {
 		let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
 		let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
 		alert.addAction(okButton)
 		self.present(alert, animated: true, completion: nil)
+	}
+	
+	@IBAction func backButton(_ sender: Any) {
+		self.navigationController?.popViewController(animated: true)
 	}
 }

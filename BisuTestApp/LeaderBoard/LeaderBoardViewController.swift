@@ -14,7 +14,6 @@ class LeaderBoardViewController: UIViewController,UITableViewDelegate,UITableVie
         super.viewDidLoad()
 
 		getData()
-		
     }
 	
 	func getData() {
@@ -34,7 +33,7 @@ class LeaderBoardViewController: UIViewController,UITableViewDelegate,UITableVie
 								
 								self.scoreArray.append(score)
 								self.userArray.append(users)
- 
+								
 								print("Score: \(score) --> User: \(users)")
 							}
 						}

@@ -1,13 +1,12 @@
-//
-//  GameCollectionViewCell.swift
-//  BisuTestApp
-//
-//  Created by Aykut Doğru on 23.11.2019.
-//  Copyright © 2019 Aykut Doğru. All rights reserved.
-//
-
 import UIKit
 
 class GameCollectionViewCell: UICollectionViewCell {
-    
+	@IBOutlet weak var gameImage: UIImageView!
+	@IBOutlet weak var viewVisible: UIView!
+	@IBOutlet weak var secondViewVisible: UIView!
+	
+	func configure(item: ModelLevels) {
+		gameImage.image = UIImage(named: item.imageName)
+		viewVisible.isHidden = item.status
+	}
 }

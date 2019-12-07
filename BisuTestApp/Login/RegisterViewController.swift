@@ -1,4 +1,3 @@
-
 import UIKit
 import Firebase
 import FirebaseAuth
@@ -8,11 +7,15 @@ class RegisterViewController: UIViewController {
 	@IBOutlet weak var emailText: UITextField!
 	@IBOutlet weak var passwordText: UITextField!
 	@IBOutlet weak var confirmText: UITextField!
+	@IBOutlet weak var signUpButton: UIButton!
+	var highScore = 0
+	
 	override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+		signUpButton.layer.cornerRadius = 25
+		signUpButton.clipsToBounds = true
     }
+	
 	@IBAction func signUpButton(_ sender: Any) {
 		
 		if emailText.text != "" && passwordText.text == confirmText.text {
@@ -24,7 +27,7 @@ class RegisterViewController: UIViewController {
 				} else {
 					let fireStore = Firestore.firestore()
 					
-					let userDictionary = ["email" : self.emailText.text!, "password" : self.passwordText.text!] as [String : Any]
+					let userDictionary = ["email" : self.emailText.text!, "password" : self.passwordText.text!, "highScore" : self.highScore] as [String : Any]
 					
 					fireStore.collection("UserInfo").addDocument(data: userDictionary) { (error) in
 						if error != nil {
@@ -40,9 +43,12 @@ class RegisterViewController: UIViewController {
 	}
 	
 	func makeAlert(title: String, message: String) {
-		let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
-		let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)
+		let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+		let okButton = UIAlertAction(title: "Ok", style: .default, handler: nil)
 		alert.addAction(okButton)
 		self.present(alert, animated: true, completion: nil)
+	}
+	@IBAction func backButton(_ sender: Any) {
+		self.navigationController?.popViewController(animated: true)
 	}
 }

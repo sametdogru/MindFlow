@@ -1,24 +1,14 @@
-//
-//  ListTableViewCell.swift
-//  BisuTestApp
-//
-//  Created by Aykut Doğru on 24.11.2019.
-//  Copyright © 2019 Aykut Doğru. All rights reserved.
-//
-
 import UIKit
 
 class ListTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+	@IBOutlet weak var scoreLabel: UILabel!
+	@IBOutlet weak var userLabel: UILabel!
+	@IBOutlet weak var labelNumber: UILabel!
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+	func configure(with score: String, user: String, index: Int) {
+		self.scoreLabel.text = score
+		self.userLabel.text = user
+		self.labelNumber.text = String(index)
+	}
 }

@@ -3,19 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360A8059238706C900D44200 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360A8058238706C900D44200 /* RegisterViewController.swift */; };
+		360A805B238706FD00D44200 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360A805A238706FD00D44200 /* LoginViewController.swift */; };
+		360A805D238713AD00D44200 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360A805C238713AC00D44200 /* GoogleService-Info.plist */; };
+		36336B362388797800DD4810 /* ModelLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36336B352388797800DD4810 /* ModelLevels.swift */; };
+		36336B3923887B5600DD4810 /* ViewModelLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36336B3823887B5600DD4810 /* ViewModelLevels.swift */; };
+		36336B3B23887C2200DD4810 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36336B3A23887C2200DD4810 /* BaseViewModel.swift */; };
+		36336B3D238882EE00DD4810 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36336B3C238882EE00DD4810 /* LeaderBoardViewController.swift */; };
+		36336B3F2388830900DD4810 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36336B3E2388830900DD4810 /* GameViewController.swift */; };
+		36336B412388854900DD4810 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36336B402388854900DD4810 /* GameCollectionViewCell.swift */; };
+		36474801238ABDF800CFFE44 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36474800238ABDF800CFFE44 /* ListTableViewCell.swift */; };
 		365C17C32386FFF0002C99D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C17C22386FFF0002C99D0 /* AppDelegate.swift */; };
 		365C17C52386FFF0002C99D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C17C42386FFF0002C99D0 /* SceneDelegate.swift */; };
 		365C17C72386FFF0002C99D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C17C62386FFF0002C99D0 /* ViewController.swift */; };
 		365C17CA2386FFF0002C99D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365C17C82386FFF0002C99D0 /* Main.storyboard */; };
 		365C17CC2386FFF0002C99D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365C17CB2386FFF0002C99D0 /* Assets.xcassets */; };
 		365C17CF2386FFF0002C99D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365C17CD2386FFF0002C99D0 /* LaunchScreen.storyboard */; };
+		368925402393E177004A68F6 /* tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3689253D2393E176004A68F6 /* tick.mp3 */; };
+		368925412393E177004A68F6 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3689253E2393E176004A68F6 /* error.mp3 */; };
+		368925422393E177004A68F6 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3689253F2393E177004A68F6 /* success.mp3 */; };
+		368925442393EF76004A68F6 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 368925432393EF76004A68F6 /* start.mp3 */; };
+		36ECC1A323871CFF00D24E44 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECC1A223871CFF00D24E44 /* HomeViewController.swift */; };
+		DFF7E25764AC0BB03D93D1A7 /* Pods_BisuTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5090CC9FCF6486FF29112DEF /* Pods_BisuTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		360A8058238706C900D44200 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		360A805A238706FD00D44200 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		360A805C238713AC00D44200 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36336B352388797800DD4810 /* ModelLevels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLevels.swift; sourceTree = "<group>"; };
+		36336B3823887B5600DD4810 /* ViewModelLevels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelLevels.swift; sourceTree = "<group>"; };
+		36336B3A23887C2200DD4810 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		36336B3C238882EE00DD4810 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		36336B3E2388830900DD4810 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		36336B402388854900DD4810 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		36474800238ABDF800CFFE44 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		365C17BF2386FFF0002C99D0 /* BisuTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BisuTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		365C17C22386FFF0002C99D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		365C17C42386FFF0002C99D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +50,14 @@
 		365C17CB2386FFF0002C99D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		365C17CE2386FFF0002C99D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		365C17D02386FFF0002C99D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3689253D2393E176004A68F6 /* tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tick.mp3; sourceTree = "<group>"; };
+		3689253E2393E176004A68F6 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		3689253F2393E177004A68F6 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		368925432393EF76004A68F6 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+		36ECC1A223871CFF00D24E44 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		486BE809E6E756234CC65576 /* Pods-BisuTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BisuTestApp.release.xcconfig"; path = "Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		5090CC9FCF6486FF29112DEF /* Pods_BisuTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BisuTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0B8F97BD6705E0E98318A1 /* Pods-BisuTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BisuTestApp.debug.xcconfig"; path = "Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF7E25764AC0BB03D93D1A7 /* Pods_BisuTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E5FAE648946F17949A58BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5090CC9FCF6486FF29112DEF /* Pods_BisuTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36336B342388795100DD4810 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				36336B3823887B5600DD4810 /* ViewModelLevels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		36336B422388855700DD4810 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				36474800238ABDF800CFFE44 /* ListTableViewCell.swift */,
+				36336B402388854900DD4810 /* GameCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		36336B432388A13700DD4810 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				365C17C62386FFF0002C99D0 /* ViewController.swift */,
+				360A8058238706C900D44200 /* RegisterViewController.swift */,
+				360A805A238706FD00D44200 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		364747FF238A91ED00CFFE44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36336B3A23887C2200DD4810 /* BaseViewModel.swift */,
+				36336B352388797800DD4810 /* ModelLevels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		365BF1E7238B3B5E0032E63F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36ECC1A223871CFF00D24E44 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		365BF1E8238B3B680032E63F /* LeaderBoard */ = {
+			isa = PBXGroup;
+			children = (
+				36336B3C238882EE00DD4810 /* LeaderBoardViewController.swift */,
+			);
+			path = LeaderBoard;
+			sourceTree = "<group>";
+		};
+		365BF1E9238B3B720032E63F /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				36336B3E2388830900DD4810 /* GameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		365C17B62386FFF0002C99D0 = {
 			isa = PBXGroup;
 			children = (
 				365C17C12386FFF0002C99D0 /* BisuTestApp */,
 				365C17C02386FFF0002C99D0 /* Products */,
+				EFF946DF21F42E4DC9B49C95 /* Pods */,
+				25E5FAE648946F17949A58BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +163,41 @@
 			children = (
 				365C17C22386FFF0002C99D0 /* AppDelegate.swift */,
 				365C17C42386FFF0002C99D0 /* SceneDelegate.swift */,
-				365C17C62386FFF0002C99D0 /* ViewController.swift */,
+				364747FF238A91ED00CFFE44 /* Model */,
+				36336B342388795100DD4810 /* ViewModels */,
 				365C17C82386FFF0002C99D0 /* Main.storyboard */,
-				365C17CB2386FFF0002C99D0 /* Assets.xcassets */,
+				36336B432388A13700DD4810 /* Login */,
+				365BF1E7238B3B5E0032E63F /* Home */,
+				36336B422388855700DD4810 /* Cells */,
+				365BF1E9238B3B720032E63F /* Game */,
+				365BF1E8238B3B680032E63F /* LeaderBoard */,
+				3689253C2393E12B004A68F6 /* Sounds */,
 				365C17CD2386FFF0002C99D0 /* LaunchScreen.storyboard */,
+				365C17CB2386FFF0002C99D0 /* Assets.xcassets */,
+				360A805C238713AC00D44200 /* GoogleService-Info.plist */,
 				365C17D02386FFF0002C99D0 /* Info.plist */,
 			);
 			path = BisuTestApp;
+			sourceTree = "<group>";
+		};
+		3689253C2393E12B004A68F6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3689253E2393E176004A68F6 /* error.mp3 */,
+				3689253F2393E177004A68F6 /* success.mp3 */,
+				3689253D2393E176004A68F6 /* tick.mp3 */,
+				368925432393EF76004A68F6 /* start.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EFF946DF21F42E4DC9B49C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F0B8F97BD6705E0E98318A1 /* Pods-BisuTestApp.debug.xcconfig */,
+				486BE809E6E756234CC65576 /* Pods-BisuTestApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 365C17D32386FFF0002C99D0 /* Build configuration list for PBXNativeTarget "BisuTestApp" */;
 			buildPhases = (
+				8DA1ADC903CAD43072040663 /* [CP] Check Pods Manifest.lock */,
 				365C17BB2386FFF0002C99D0 /* Sources */,
 				365C17BC2386FFF0002C99D0 /* Frameworks */,
 				365C17BD2386FFF0002C99D0 /* Resources */,
+				A1551DF75EFB9F0256918C7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +261,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				365C17CF2386FFF0002C99D0 /* LaunchScreen.storyboard in Resources */,
+				368925402393E177004A68F6 /* tick.mp3 in Resources */,
+				360A805D238713AD00D44200 /* GoogleService-Info.plist in Resources */,
 				365C17CC2386FFF0002C99D0 /* Assets.xcassets in Resources */,
+				368925422393E177004A68F6 /* success.mp3 in Resources */,
+				368925442393EF76004A68F6 /* start.mp3 in Resources */,
 				365C17CA2386FFF0002C99D0 /* Main.storyboard in Resources */,
+				368925412393E177004A68F6 /* error.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DA1ADC903CAD43072040663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BisuTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1551DF75EFB9F0256918C7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		365C17BB2386FFF0002C99D0 /* Sources */ = {
@@ -141,6 +323,16 @@
 				365C17C72386FFF0002C99D0 /* ViewController.swift in Sources */,
 				365C17C32386FFF0002C99D0 /* AppDelegate.swift in Sources */,
 				365C17C52386FFF0002C99D0 /* SceneDelegate.swift in Sources */,
+				360A805B238706FD00D44200 /* LoginViewController.swift in Sources */,
+				36336B3D238882EE00DD4810 /* LeaderBoardViewController.swift in Sources */,
+				36336B362388797800DD4810 /* ModelLevels.swift in Sources */,
+				36336B3B23887C2200DD4810 /* BaseViewModel.swift in Sources */,
+				36336B3923887B5600DD4810 /* ViewModelLevels.swift in Sources */,
+				36336B412388854900DD4810 /* GameCollectionViewCell.swift in Sources */,
+				360A8059238706C900D44200 /* RegisterViewController.swift in Sources */,
+				36336B3F2388830900DD4810 /* GameViewController.swift in Sources */,
+				36474801238ABDF800CFFE44 /* ListTableViewCell.swift in Sources */,
+				36ECC1A323871CFF00D24E44 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +474,12 @@
 		};
 		365C17D42386FFF0002C99D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0B8F97BD6705E0E98318A1 /* Pods-BisuTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BisuTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +493,12 @@
 		};
 		365C17D52386FFF0002C99D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486BE809E6E756234CC65576 /* Pods-BisuTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BisuTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
