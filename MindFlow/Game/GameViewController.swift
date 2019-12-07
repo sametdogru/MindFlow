@@ -11,7 +11,6 @@ class GameViewController: UIViewController, UICollectionViewDelegate, UICollecti
 	@IBOutlet weak var levelLabel: UILabel!
 	
 	private let viewModel = ViewModelLevels()
-	
 	var counter = 0
 	var count = 0
 	var score = 0

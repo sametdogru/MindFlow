@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController restorationIdentifier="mainVC" storyboardIdentifier="mainVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="BisuTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="mainVC" storyboardIdentifier="mainVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="MindFlow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,7 +134,7 @@
         <!--Register View Controller-->
         <scene sceneID="cPB-L3-9O3">
             <objects>
-                <viewController restorationIdentifier="registerVC" storyboardIdentifier="registerVC" modalPresentationStyle="fullScreen" id="MMF-5N-dpc" customClass="RegisterViewController" customModule="BisuTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="registerVC" storyboardIdentifier="registerVC" modalPresentationStyle="fullScreen" id="MMF-5N-dpc" customClass="RegisterViewController" customModule="MindFlow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="peP-t6-I4G">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,7 +241,7 @@
         <!--Login View Controller-->
         <scene sceneID="yXm-IY-43h">
             <objects>
-                <viewController restorationIdentifier="loginVC" storyboardIdentifier="loginVC" modalPresentationStyle="fullScreen" id="KbQ-Ad-EUI" customClass="LoginViewController" customModule="BisuTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="loginVC" storyboardIdentifier="loginVC" modalPresentationStyle="fullScreen" id="KbQ-Ad-EUI" customClass="LoginViewController" customModule="MindFlow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eif-lY-SPn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,7 +337,7 @@
         <!--Home View Controller-->
         <scene sceneID="Cd6-b5-GOK">
             <objects>
-                <viewController restorationIdentifier="homeVC" storyboardIdentifier="homeVC" modalPresentationStyle="fullScreen" id="cxh-Ph-N0p" customClass="HomeViewController" customModule="BisuTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="homeVC" storyboardIdentifier="homeVC" modalPresentationStyle="fullScreen" id="cxh-Ph-N0p" customClass="HomeViewController" customModule="MindFlow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wqo-Td-WVk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -455,7 +455,7 @@
         <!--Game View Controller-->
         <scene sceneID="NTZ-mm-yhl">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="fj6-dj-a3C" customClass="GameViewController" customModule="BisuTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="fj6-dj-a3C" customClass="GameViewController" customModule="MindFlow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9jz-Oa-hWR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -484,7 +484,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="QgV-4y-maP" customClass="GameCollectionViewCell" customModule="BisuTestApp" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="QgV-4y-maP" customClass="GameCollectionViewCell" customModule="MindFlow" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3se-cI-vI8">
@@ -626,7 +626,7 @@
         <!--Leader Board View Controller-->
         <scene sceneID="sIX-72-YU6">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Ohc-c9-4U9" customClass="LeaderBoardViewController" customModule="BisuTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Ohc-c9-4U9" customClass="LeaderBoardViewController" customModule="MindFlow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0pN-Ow-09u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -642,7 +642,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="51" id="lHa-W3-GZj" customClass="ListTableViewCell" customModule="BisuTestApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="51" id="lHa-W3-GZj" customClass="ListTableViewCell" customModule="MindFlow" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="51"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lHa-W3-GZj" id="uAg-hI-RkC">
