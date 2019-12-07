@@ -6,13 +6,11 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
 		signUpButton.layer.cornerRadius = 25
 		signUpButton.clipsToBounds = true
 		signInButton.layer.cornerRadius = 25
 		signInButton.clipsToBounds = true
 	}
-
 
 	@IBAction func loginButton(_ sender: Any) {
 		self.performSegue(withIdentifier: "toLoginVC", sender: nil)

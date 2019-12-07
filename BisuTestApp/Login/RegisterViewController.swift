@@ -9,7 +9,6 @@ class RegisterViewController: UIViewController {
 	@IBOutlet weak var confirmText: UITextField!
 	@IBOutlet weak var signUpButton: UIButton!
 	var highScore = 0
-	
 	override func viewDidLoad() {
         super.viewDidLoad()
 		signUpButton.layer.cornerRadius = 25
