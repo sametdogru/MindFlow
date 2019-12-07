@@ -23,12 +23,12 @@
 		365C17CA2386FFF0002C99D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365C17C82386FFF0002C99D0 /* Main.storyboard */; };
 		365C17CC2386FFF0002C99D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365C17CB2386FFF0002C99D0 /* Assets.xcassets */; };
 		365C17CF2386FFF0002C99D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365C17CD2386FFF0002C99D0 /* LaunchScreen.storyboard */; };
+		367DB6BFA0E36B98BC4E6DB7 /* Pods_MindFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755DBDF4543F4D9597716932 /* Pods_MindFlow.framework */; };
 		368925402393E177004A68F6 /* tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3689253D2393E176004A68F6 /* tick.mp3 */; };
 		368925412393E177004A68F6 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3689253E2393E176004A68F6 /* error.mp3 */; };
 		368925422393E177004A68F6 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3689253F2393E177004A68F6 /* success.mp3 */; };
 		368925442393EF76004A68F6 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 368925432393EF76004A68F6 /* start.mp3 */; };
 		36ECC1A323871CFF00D24E44 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECC1A223871CFF00D24E44 /* HomeViewController.swift */; };
-		DFF7E25764AC0BB03D93D1A7 /* Pods_BisuTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5090CC9FCF6486FF29112DEF /* Pods_BisuTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		36336B3E2388830900DD4810 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		36336B402388854900DD4810 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
 		36474800238ABDF800CFFE44 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
-		365C17BF2386FFF0002C99D0 /* BisuTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BisuTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365C17BF2386FFF0002C99D0 /* MindFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		365C17C22386FFF0002C99D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		365C17C42386FFF0002C99D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		365C17C62386FFF0002C99D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,9 +55,9 @@
 		3689253F2393E177004A68F6 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
 		368925432393EF76004A68F6 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
 		36ECC1A223871CFF00D24E44 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		486BE809E6E756234CC65576 /* Pods-BisuTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BisuTestApp.release.xcconfig"; path = "Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp.release.xcconfig"; sourceTree = "<group>"; };
-		5090CC9FCF6486FF29112DEF /* Pods_BisuTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BisuTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F0B8F97BD6705E0E98318A1 /* Pods-BisuTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BisuTestApp.debug.xcconfig"; path = "Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		66A34C491D85D017C8C76212 /* Pods-MindFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindFlow.debug.xcconfig"; path = "Target Support Files/Pods-MindFlow/Pods-MindFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		755DBDF4543F4D9597716932 /* Pods_MindFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EA95C1E4F333C1FDDB5BD0 /* Pods-MindFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindFlow.release.xcconfig"; path = "Target Support Files/Pods-MindFlow/Pods-MindFlow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFF7E25764AC0BB03D93D1A7 /* Pods_BisuTestApp.framework in Frameworks */,
+				367DB6BFA0E36B98BC4E6DB7 /* Pods_MindFlow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		25E5FAE648946F17949A58BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5090CC9FCF6486FF29112DEF /* Pods_BisuTestApp.framework */,
+				755DBDF4543F4D9597716932 /* Pods_MindFlow.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 		365C17C02386FFF0002C99D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				365C17BF2386FFF0002C99D0 /* BisuTestApp.app */,
+				365C17BF2386FFF0002C99D0 /* MindFlow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,8 +194,8 @@
 		EFF946DF21F42E4DC9B49C95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9F0B8F97BD6705E0E98318A1 /* Pods-BisuTestApp.debug.xcconfig */,
-				486BE809E6E756234CC65576 /* Pods-BisuTestApp.release.xcconfig */,
+				66A34C491D85D017C8C76212 /* Pods-MindFlow.debug.xcconfig */,
+				92EA95C1E4F333C1FDDB5BD0 /* Pods-MindFlow.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,9 +203,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		365C17BE2386FFF0002C99D0 /* BisuTestApp */ = {
+		365C17BE2386FFF0002C99D0 /* MindFlow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 365C17D32386FFF0002C99D0 /* Build configuration list for PBXNativeTarget "BisuTestApp" */;
+			buildConfigurationList = 365C17D32386FFF0002C99D0 /* Build configuration list for PBXNativeTarget "MindFlow" */;
 			buildPhases = (
 				8DA1ADC903CAD43072040663 /* [CP] Check Pods Manifest.lock */,
 				365C17BB2386FFF0002C99D0 /* Sources */,
@@ -217,9 +217,9 @@
 			);
 			dependencies = (
 			);
-			name = BisuTestApp;
+			name = MindFlow;
 			productName = BisuTestApp;
-			productReference = 365C17BF2386FFF0002C99D0 /* BisuTestApp.app */;
+			productReference = 365C17BF2386FFF0002C99D0 /* MindFlow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 365C17BA2386FFF0002C99D0 /* Build configuration list for PBXProject "BisuTestApp" */;
+			buildConfigurationList = 365C17BA2386FFF0002C99D0 /* Build configuration list for PBXProject "MindFlow" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,7 +250,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				365C17BE2386FFF0002C99D0 /* BisuTestApp */,
+				365C17BE2386FFF0002C99D0 /* MindFlow */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BisuTestApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MindFlow-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -302,15 +302,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MindFlow/Pods-MindFlow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MindFlow/Pods-MindFlow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindFlow/Pods-MindFlow-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -474,7 +474,7 @@
 		};
 		365C17D42386FFF0002C99D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0B8F97BD6705E0E98318A1 /* Pods-BisuTestApp.debug.xcconfig */;
+			baseConfigurationReference = 66A34C491D85D017C8C76212 /* Pods-MindFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,7 +493,7 @@
 		};
 		365C17D52386FFF0002C99D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 486BE809E6E756234CC65576 /* Pods-BisuTestApp.release.xcconfig */;
+			baseConfigurationReference = 92EA95C1E4F333C1FDDB5BD0 /* Pods-MindFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,7 +513,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		365C17BA2386FFF0002C99D0 /* Build configuration list for PBXProject "BisuTestApp" */ = {
+		365C17BA2386FFF0002C99D0 /* Build configuration list for PBXProject "MindFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				365C17D12386FFF0002C99D0 /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		365C17D32386FFF0002C99D0 /* Build configuration list for PBXNativeTarget "BisuTestApp" */ = {
+		365C17D32386FFF0002C99D0 /* Build configuration list for PBXNativeTarget "MindFlow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				365C17D42386FFF0002C99D0 /* Debug */,

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_BisuTestAppVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_BisuTestAppVersionString[];
+FOUNDATION_EXPORT double Pods_MindFlowVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MindFlowVersionString[];
 

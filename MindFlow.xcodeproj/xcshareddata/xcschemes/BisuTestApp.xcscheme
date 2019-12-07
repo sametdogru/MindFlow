@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "365C17BE2386FFF0002C99D0"
-               BuildableName = "BisuTestApp.app"
-               BlueprintName = "BisuTestApp"
-               ReferencedContainer = "container:BisuTestApp.xcodeproj">
+               BuildableName = "MindFlow.app"
+               BlueprintName = "MindFlow"
+               ReferencedContainer = "container:MindFlow.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "365C17BE2386FFF0002C99D0"
-            BuildableName = "BisuTestApp.app"
-            BlueprintName = "BisuTestApp"
-            ReferencedContainer = "container:BisuTestApp.xcodeproj">
+            BuildableName = "MindFlow.app"
+            BlueprintName = "MindFlow"
+            ReferencedContainer = "container:MindFlow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "365C17BE2386FFF0002C99D0"
-            BuildableName = "BisuTestApp.app"
-            BlueprintName = "BisuTestApp"
-            ReferencedContainer = "container:BisuTestApp.xcodeproj">
+            BuildableName = "MindFlow.app"
+            BlueprintName = "MindFlow"
+            ReferencedContainer = "container:MindFlow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

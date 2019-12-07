@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-BisuTestApp/Pods-BisuTestApp-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-MindFlow/Pods-MindFlow-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
 ${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
