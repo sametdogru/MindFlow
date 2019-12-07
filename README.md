@@ -1,1 +1,5 @@
 # MindFlow
+![rsz_simulator_screen_shot_-_iphone_11_-_2019-12-07_at_134552](https://user-images.githubusercontent.com/47924250/70373362-2a127f00-18f9-11ea-85c2-3aadb7a78e7e.png) ![rsz_simulator_screen_shot_-_iphone_11_-_2019-12-02_at_002449](https://user-images.githubusercontent.com/47924250/69920918-9e36c800-149e-11ea-9918-8e4031bc512b.png) ![rsz_simulator_screen_shot_-_iphone_11_-_2019-12-02_at_002455](https://user-images.githubusercontent.com/47924250/69920937-bb6b9680-149e-11ea-8194-9778a1874768.png)
+
+
+![rsz_1simulator_screen_shot_-_iphone_11_-_2019-12-02_at_002515](https://user-images.githubusercontent.com/47924250/69920989-274dff00-149f-11ea-8215-9d8a4ac44187.png) ![rsz_simulator_screen_shot_-_iphone_11_-_2019-12-02_at_002756](https://user-images.githubusercontent.com/47924250/69920993-2ddc7680-149f-11ea-95fe-d632cd8008cc.png) ![rsz_simulator_screen_shot_-_iphone_11_-_2019-12-02_at_002637](https://user-images.githubusercontent.com/47924250/69920992-2ae18600-149f-11ea-9637-0df7b821cafa.png)
