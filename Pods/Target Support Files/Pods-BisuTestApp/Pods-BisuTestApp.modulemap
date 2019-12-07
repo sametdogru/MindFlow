@@ -1,0 +1,6 @@
+framework module Pods_BisuTestApp {
+  umbrella header "Pods-BisuTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
